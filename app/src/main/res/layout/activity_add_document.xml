@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etDocumentType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Тип справки" />
+
+    <EditText
+        android:id="@+id/etApplicantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя заявителя"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnSaveDocument"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить справку"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
